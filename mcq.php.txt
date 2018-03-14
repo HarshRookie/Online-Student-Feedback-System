@@ -1,0 +1,48 @@
+<?php
+
+session_start();
+	include "../bucket.php";
+	$obDBRel = new DBRel;
+	error_reporting(0);
+	$obDBRel->redirect();
+	
+	//Connecting to DB
+	$conn = $obDBRel->DBconn();
+
+
+
+
+
+<body>
+<form method='POST' action="">
+
+
+<P>1. Was the subject intresting?<BR>
+<input type="radio" name="q1" value="yes">yes<BR>
+<input type="radio" name="q1" value="no">no<BR>
+<input type="radio" name="q1" value="average">average<BR>
+</p>
+
+
+<P>1. Was the subject properly conducted?<BR>
+<input type="radio" name="q2" value="yes">yes<BR>
+<input type="radio" name="q2" value="no">no<BR>
+<input type="radio" name="q2" value="average">average<BR>
+</p>
+
+<P>1. Was tutorial conducted in time?<BR>
+<input type="radio" name="q3" value="yes">yes<BR>
+<input type="radio" name="q3" value="no">no<BR>
+
+</p>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<input type="submit" value="Send Form">
+<input type="reset" value="Clear Form">
+</form>
+</body>

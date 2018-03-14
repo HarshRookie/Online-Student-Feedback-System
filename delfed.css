@@ -1,0 +1,87 @@
+body{
+	margin: 0px;
+	font-family: "Franklin Gothic Medium";
+	background-color: #f0f0f0;
+}
+header{
+	background-color: #4a4a4a;
+	text-align: center;
+	padding: 5px;
+}
+header > img{
+	width: 90px;
+	height: auto;
+}
+header > span > a{
+	float: right;
+	margin: 7px; 
+	margin-top: 7px; 
+	font-size: 20px;
+	text-decoration: none;
+	color: #6aa441;
+}
+header > span > a:hover{
+	color: #00f54e;
+}
+article{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+select{
+	background-color: #e0e0e0;
+	margin: 10px;
+	padding:7px;
+	width: 200px;
+	font-size:20px;
+	border-style:hidden;
+	border-radius: 2px;
+	border-width:0px; 
+}
+.input{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+	margin: 10px;
+	height: 38px;
+	color: #ffffff;
+	font-size: 20px;
+	background: #c4ffad;
+	padding: 5px;
+	text-decoration: none;
+	border: 0px;
+	margin-left: 10px;
+}
+button:hover{
+	background: #00f54e;
+	text-decoration: none;
+}
+.output{
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width:900px;
+	margin-top: 80px;
+	min-height: 250px;
+	box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.05);
+}
+.slist td{
+	text-align: center;
+}
+.slist{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 700px;
+
+}
+td{
+	border-bottom: 1px solid #ddd;
+}
+th{
+	border-bottom: 2px solid #ddd;
+}

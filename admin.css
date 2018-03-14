@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	font-family: "Franklin Gothic Medium";
+	background-color: #f0f0f0;
+}
+header{
+	background-color: #4a4a4a;
+	text-align: center;
+	padding: 5px;
+}
+header > img{
+	width: 90px;
+	height: auto;
+}
+header > span > a{
+	float: right;
+	margin: 7px; 
+	font-size: 20px;
+	text-decoration: none;
+	color: #6aa441;
+}
+header > span > a:hover{
+	color: #00f54e;
+}
+article{
+	margin-top: 50px;
+	text-align: center;
+}
+.main{
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main > div{
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	width:900px;
+	margin:15px;
+	height: 130px;
+	box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.05);
+}
+.lnkimg{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.shorten{
+	width: 600px;
+	margin-left: 50px;
+}
+a > img{
+	height: 50px;
+	width: auto;
+}
+div > p{
+	opacity: 0.5;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+div > h3{
+	margin-top: 30px;
+}
